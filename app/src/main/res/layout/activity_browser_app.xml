@@ -5,15 +5,15 @@
     android:id="@+id/webView"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:maxHeight="587dp"
+    android:maxWidth="395dp"
+    android:minHeight="0dp"
+    android:minWidth="0dp"
     tools:context="com.example.xavkh.browserpbe.BrowserApp">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
+    <WebView
+        android:layout_width="395dp"
+        android:layout_height="587dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp" />
 </android.support.constraint.ConstraintLayout>
