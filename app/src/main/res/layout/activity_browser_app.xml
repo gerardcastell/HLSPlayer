@@ -2,18 +2,13 @@
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/webView"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:maxHeight="587dp"
-    android:maxWidth="395dp"
-    android:minHeight="0dp"
-    android:minWidth="0dp"
     tools:context="com.example.xavkh.browserpbe.BrowserApp">
 
     <WebView
-        android:layout_width="395dp"
-        android:layout_height="587dp"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="8dp" />
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
 </android.support.constraint.ConstraintLayout>

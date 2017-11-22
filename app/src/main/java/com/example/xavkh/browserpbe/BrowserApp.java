@@ -17,6 +17,6 @@ public class BrowserApp extends AppCompatActivity {
         webView.getSettings().setJavaScriptEnabled(true);
         webView.setVerticalScrollBarEnabled(false);
         webView.setHorizontalScrollBarEnabled(false);
-        webView.loadUrl("https://www.bet365.com/");
+        webView.loadUrl("192.168.1.100");
     }
 }
