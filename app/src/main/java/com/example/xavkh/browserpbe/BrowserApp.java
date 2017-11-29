@@ -1,5 +1,6 @@
 package com.example.xavkh.browserpbe;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -7,7 +8,9 @@ import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.EditText;
 import android.widget.Button;
+import android.widget.TextView;
 
+import org.w3c.dom.Text;
 
 
 public class BrowserApp extends AppCompatActivity {
@@ -39,7 +42,14 @@ public class BrowserApp extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
-
+                        String url = webView.getUrl();
+                        TextView tx = (TextView) findViewById(R.id.textView);
+                        tx.setText(url);
+                        //if(url.endsWith(".m3u8") || url.endsWith(".ts")) {
+                            Intent intent = new Intent(BrowserApp.this, Reproductor.class);
+                            intent.putExtra("url", url);
+                            startActivity(intent);
+                        //}
                     }
                 }
         );

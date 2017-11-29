@@ -9,5 +9,6 @@ public class Reproductor extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_reproductor);
+        String path = this.getIntent().getStringExtra("url");
     }
 }
