@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">BrowserPBE</string>
+    <string name="cadena">URL...</string>
 </resources>
