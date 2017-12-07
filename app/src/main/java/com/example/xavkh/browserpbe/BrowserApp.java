@@ -55,20 +55,5 @@ public class BrowserApp extends AppCompatActivity {
                     }
                 }
         );
-        webView.setOnClickListener(
-                new View.OnClickListener() {
-                    @Override
-                    public void onClick(View view) {
-                        String url = webView.getUrl();
-                        TextView tx = (TextView) findViewById(R.id.textView);
-                        tx.setText(url);
-                        //if(url.endsWith(".m3u8") || url.endsWith(".ts")) {
-                            Intent intent = new Intent(BrowserApp.this, Reproductor.class);
-                            intent.putExtra("url", url);
-                            startActivity(intent);
-                        //}
-                    }
-                }
-        );
     }
 }
