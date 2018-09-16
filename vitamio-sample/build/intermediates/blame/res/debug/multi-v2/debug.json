@@ -1,0 +1,64 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\xavkh\\AndroidStudioProjects\\BrowserPBE\\vitamio-sample\\build\\intermediates\\res\\merged\\debug\\values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\xavkh\\AndroidStudioProjects\\BrowserPBE\\vitamio-sample\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "17",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "197"
+                    },
+                    "to": {
+                        "startLines": "52",
+                        "startColumns": "4",
+                        "startOffsets": "3308",
+                        "endLines": "55",
+                        "endColumns": "12",
+                        "endOffsets": "3488"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\xavkh\\AndroidStudioProjects\\BrowserPBE\\vitamio-sample\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "10,7,4,5,17,18,8,6,11,12,13,16,9,15,14,3",
+                        "startColumns": "4,4,1,1,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "526,314,111,175,1018,1069,381,252,579,640,699,946,445,865,784,56",
+                        "endColumns": "52,66,63,73,50,50,63,61,60,58,84,71,80,80,80,57",
+                        "endOffsets": "574,376,173,247,1064,1115,440,309,635,694,779,1013,521,941,860,109"
+                    },
+                    "to": {
+                        "startLines": "11,12,13,14,16,17,25,26,27,28,29,30,31,32,33,34",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "588,641,708,775,918,969,1606,1670,1732,1793,1852,1937,2009,2090,2171,2252",
+                        "endColumns": "52,66,66,76,50,50,63,61,60,58,84,71,80,80,80,57",
+                        "endOffsets": "636,703,770,847,964,1015,1665,1727,1788,1847,1932,2004,2085,2166,2247,2305"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\xavkh\\AndroidStudioProjects\\BrowserPBE\\vitamio\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,9,10,11,12,13,14,15,16,18,19,20,21,31",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,110,173,221,275,427,520,588,654,755,826,939,1026,1155,1240,1313,1381,2028",
+                        "endLines": "2,3,4,5,8,9,10,11,12,13,14,15,17,18,19,20,30,35",
+                        "endColumns": "54,62,47,53,13,92,67,65,100,70,112,86,13,84,72,67,12,12",
+                        "endOffsets": "105,168,216,270,422,515,583,649,750,821,934,1021,1150,1235,1308,1376,2023,2233"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,9,10,15,18,19,20,21,22,24,35,36,37,47",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,110,173,221,275,427,520,852,1020,1121,1192,1305,1392,1521,2310,2383,2451,3098",
+                        "endLines": "2,3,4,5,8,9,10,15,18,19,20,21,23,24,35,36,46,51",
+                        "endColumns": "54,62,47,53,13,92,67,65,100,70,112,86,13,84,72,67,12,12",
+                        "endOffsets": "105,168,216,270,422,515,583,913,1116,1187,1300,1387,1516,1601,2378,2446,3093,3303"
+                    }
+                }
+            ]
+        }
+    ]
+}

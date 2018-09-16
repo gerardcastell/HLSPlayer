@@ -3,31 +3,28 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
     android:orientation="vertical">
 
-
-    <EditText
-        android:id="@+id/edittext"
-        android:layout_width="301dp"
-        android:layout_height="39dp"
-        android:hint="@string/cadena"
-        android:inputType="textUri"
-        android:singleLine="true" />
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="46dp"
-        android:layout_height="wrap_content"
-        android:text="->" />
-
-    <TextView
-        android:id="@+id/textView"
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="url"
-        />
-
+        android:orientation="horizontal"
+        >
+        <EditText
+            android:id="@+id/edittext"
+            android:layout_width="39dp"
+            android:layout_weight="1"
+            android:layout_height="46dp"
+            android:hint="@string/cadena"
+            android:inputType="textUri"
+            android:singleLine="true" />
+        <Button
+            android:id="@+id/button"
+            android:layout_width="46dp"
+            android:layout_height="46dp"
+            android:background="@drawable/ic_keyboard_arrow_right_black_48dp" />
+    </LinearLayout>
     <WebView
         android:id="@+id/webView"
         android:layout_width="match_parent"
